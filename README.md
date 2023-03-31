@@ -42,13 +42,14 @@ To summarize, all manufacturing lots when examined all together, meet the design
 ---
 ## T-Tests on Suspension Coils
 T-tests are great for statistically testing and comparing the means of two groups. From the t-test of all manufacturing lots, we can see that the average of the sample is 1498.78, which was shown in the summary statistics in the previous deliverable. The t-test has a p-value of 0.060, which is greater than 0.05, meaning that is not enough evidence to reject the null hypothesis.
+---
+![4](https://user-images.githubusercontent.com/119131202/229007443-b6eee6eb-c554-4438-a1b8-93a990544956.PNG)
+---
 The t-test for lot 1 states that there is a p-value of 1, which is greater than 0.05, meaning that lot 1 is not statistically significant. Similarity, the p-value for lot 2 is 0.607, which is greater than 0.05, so lot 2 is not statistically significance. Lastly, lot 3 had a p-value of 0.0417, which is less than 0.05, meaning that lot 3 is statistically significant. With this information, the data suggest that lot 3 is causing the variance in the manufacturing lots.
 ## Study Design: MechaCar vs Competition
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horsepower, maintenance cost, or safety rating.
-
-1. What metric or metrics are you going to test?
-To examine MechaCar against competition, the metrics will be Price of vehicles.
-
+---
+1. What metric or metrics are you going to test? To examine MechaCar against competition, the metrics will be Price of vehicles.
 2. What is the null hypothesis or alternative hypothesis?
 Null hypothesis: The Price of the vehicles within the MechaCar have an impact on the MPG.
 Alternative hypothesis: The Price of the vehicles within the MechaCar does not have an impact on the MPG.
